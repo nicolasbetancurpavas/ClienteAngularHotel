@@ -1,0 +1,9 @@
+* {
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: rgb(2, 35, 29);
+    color: rgb(112, 101, 61);
+}
