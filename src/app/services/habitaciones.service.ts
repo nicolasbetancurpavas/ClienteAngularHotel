@@ -9,7 +9,9 @@ export class HabitacionesService {
   constructor(public peticion: HttpClient) {
   }
   consultarHabitaciones(): Observable<any> {
-    let uri = "http://serve20222.herokuapp.com/hotelesnick/habitaciones"
+    let uri = "http://localhost:3000/hotelmarshall/habitaciones"
     return this.peticion.get(uri);
   }
 }
+
+

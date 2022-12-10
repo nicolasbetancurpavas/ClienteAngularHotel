@@ -3,42 +3,55 @@
     <a class="navbar-brand" href="#">
       <img class="img-navbar" src="../../../assets/img/logo.png" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-      aria-labelledby="offcanvasDarkNavbarLabel">
+    <span class="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </span>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Tambien tenemos ..</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-success" type="submit">Search</button>
-        </form>
+        <section>
+          <div class="item-canvas">
+            <p class="item-canvas-title">Restaurante</p>
+            <div class="img-container-item">
+
+              <img class="item-canvas-img"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-1ccc1.appspot.com/o/Hotel%2Frestaurante.jpg?alt=media&token=dfb1df92-6d2d-4b50-8a00-3f3ac1a5fcd8"
+                alt="">
+            </div>
+          </div>
+          <div class="item-canvas">
+            <p class="item-canvas-title">Finca</p>
+            <div class="img-container-item">
+              <img class="item-canvas-img"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-1ccc1.appspot.com/o/Hotel%2Ffincas.jpeg?alt=media&token=db197962-7361-41b6-84ae-57bffaa52e79"
+                alt="">
+            </div>
+          </div>
+          <div class="item-canvas">
+            <p class="item-canvas-title">Bar</p>
+            <div class="img-container-item">
+              <img class="item-canvas-img"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-1ccc1.appspot.com/o/Hotel%2Frestaurante.jpg?alt=media&token=dfb1df92-6d2d-4b50-8a00-3f3ac1a5fcd8"
+                alt="">
+            </div>
+          </div>
+          <div class="item-canvas">
+            <p class="item-canvas-title">Glamping</p>
+            <div class="img-container-item">
+              <img class="item-canvas-img"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-1ccc1.appspot.com/o/Hotel%2Fglmaping.jpg?alt=media&token=ab88bc9c-5c15-4a4a-9030-7127b2cc5417"
+                alt="">
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
