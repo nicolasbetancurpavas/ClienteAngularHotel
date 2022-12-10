@@ -1,9 +1,9 @@
-# Taller del tercer Momento De Avanzada
+## Cliente Angular Hotel Marshall
 <p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/pythonjuevesmfs.appspot.com/o/3195.512.webp?alt=media&token=3474fb41-e9e7-4ea4-9180-9a6948f26ff5" width="300" height="300">
+  <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-1ccc1.appspot.com/o/readmes%2Fdam.png?alt=media&token=e15e7338-3eb2-4a7e-9d8c-61ff94d8c54f" width="350" height="300">
 </p>
 
-Hecho por: Mateo Franco
+Hecho por: Nicolas Betancur
 
 ***
 Taller Final
