@@ -6,7 +6,7 @@
 <p>APIREST STACK MEAN (Mongo,Express,Angular,Nodejs)</p>
 <p>Aplicacion Cliente con Angular</p>
 <p>Implementacion del ApiRest </p>
-<p>uso de Typescript para el consumo de recursos</p>
+<p>uso de Typescript para el consumo de recursos (Mostar habitaciones)</p>
 <p>Manejo del Dom y de los Componentes con Angular</p>
 <p></p>
 
